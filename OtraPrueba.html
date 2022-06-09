@@ -1,0 +1,154 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APrender</title>
+    <link rel="stylesheet" href="prueba.css">
+    <script src="prueba.js"></script>
+</head>
+<body>
+    <div id="PartePrincipal">
+    <div id="Contenedor">
+        <div id="fondo">
+    <div id="Buscar">
+
+        <h1 id="QueTeInteresa">¿Que te interesa buscar?</h1>
+        <div id="DivTextoJs">
+        <p id="TodoJS">Todo relaciosado a JavaScript<span id="span">&#160;</span></p>            
+        </div>
+
+        <input type="search" id="myInput" list="CosasBuscar"/>
+        <datalist id="CosasBuscar">
+            <option value="¿Que es JavaScript?"></option>
+            <option value="¿Para que sirve JavaScript?"></option>
+            <option value="Metodo Burbuja"></option>
+        </datalist>
+        <button id="InputBuscar" onclick="Buscar()" onmousemove="CambiarColorBoton()" onmouseout="QuitarColorBoton()">Confirmar</button>
+    </div>            
+        </div>
+        <div id="ParteArriba">
+
+            <button id="ALL" onmousemove="CambiarColorALL()" onmouseout="QuitarColorALL()">ALL</button>
+            <button id="Infor" onmousemove="InforPagina()">Infor</button>
+            <button id="Aprend">Aprende</button>
+            <button id="Colabora">Colabora</button>
+            <select name="mySelect" id="CambiarColor" onclick="CambiarColorSelect()">
+                <option value="Normal" selected>Modo normal</option>
+                <option value="Claro">Claro</option>
+            </select>            
+            </div>
+
+<img src="undraw_reading_time_re_phf7.svg" id="img1">
+    <div class="Items">
+        Cumple tus sueños :D
+        <div class="item uno">Comprometete</div>
+        <div class="item dos">Esfuersate</div>
+        <div class="item tres">Sueña</div>
+    </div>
+
+    </div>
+    <div id="TextoJs">
+        <h1 id="TituloJs">JavaScript</h1>
+        <p id="PJs">Este lenguaje de programacion es muy conocido, junto a HTMl y Css sirven <br> demaciado para hacer paginas web, aun que no <br> significa que no se puedan hacer <br> otras cosas como juegos o proyectos mas <br> avansados, Una herramienta de programacion nesesaria</p>
+        <img src="js.png" id="Jsimg">
+        <img src="undraw_developer_activity_re_39tg.svg" id="img2">
+
+    </div>
+    <div id="TextoHTML">
+        <h1 id="TituloHTML">HTML</h1>
+        <p id="PHTML">HTMl es una herramienta bastante util para poder hacer la estructura de tu proyecto, ademas <br> que le agrega cosas como los textos imagens, y todo lo que se pueda ver en <br> la pantalla. Una herramienta que con tan solo saver como funciona ya podras a enpesar a hacer cosas muy buenas</p>
+        <img src="html-5.png" id="HTMLimg">
+        <img src="undraw_programming_re_kg9v.svg" id="img3">
+
+    </div>
+    <div id="TextoCss">
+        <h1 id="TituloCss">Css</h1>
+        <p id="PCss">Css es una herramienta para darle estilo a tus Elementos, este es muy <br> usado con HTML y este sirve para dar tanto color, como forma tamaño... <br> etc. Una herramienta inpresindible si es usada muy bien.</p>
+        <img src="css.png" id="CssImg">
+        <img src="undraw_static_assets_rpm6.svg" id="img4">
+        
+
+    </div>
+    <div id="TextoALL">
+        <h1 id="TituloALL">ALL</h1>
+        <p id="PALL">A: Alejandro L: Lisandro L: Lumdi</p>
+        <div id="AlgoritmoEnseñar">
+            <ul id="ulBurbuja">
+            <li> function burbuja(arr){</li>
+            <li>   for (i=0;i<arr.length - 1;i+=1){ </li>
+            <li>     for (j=0; j<arr.length - 1; j+=1){</li>
+            <li>       if (arr[j] > arr[j + 1]){</li>
+            <li>         let aux = arr[j]</li>
+            <li>         arr[j] = arr[j + 1]</li>
+            <li>         arr[j + 1] = aux</li>
+            <li>       }</li>
+            <li>     }</li>
+            <li>   }</li>
+            <li>   return arr</li>
+            <li> }</li>     
+            <li> Este es el metodo burbuja, un metodo para ordenar un array de menor a mayor </li>           
+            </ul>
+        </div>        
+        <div class="HTMLEJ">
+            <div class="HTMLI item1">Item1</div>
+            <div class="HTMLI item2">Item2</div>
+            <div class="HTMLI item3">Item3</div>
+            <div class="HTMLI item4">Item4</div>
+            <div class="HTMLI item5">Item5</div>
+            <div class="HTMLI item6">Item6</div>
+            <div class="HTMLI item7">Item7</div>
+            <div class="HTMLI item8">Item8</div>
+            <p class="TextoEjemploHTMl">Un ejemplo de lo que podes hacer con HTML y Css</p>
+        </div>
+        <p class="CSSejemploTexto">Una animacion hecha con css</p>
+        <div class="EjemploCss">
+            <div class="CssE dos">2</div>
+            <div class="CssE tres">3</div>
+            <div class="CssE uno">1</div>
+        </div>
+    </div>    
+    </div>
+    <div class="Ejemplos">
+        <p>Voy a hacer un conjunto de divs que tengan los numeros del 1 al 9 con dos maneras, una con grid y otra normal</p>
+        <h1>Manera Eficiente</h1>
+        <div class="ContenedorEjemploEFI">
+            <div class="EFI 1">1</div>
+            <div class="EFI 2">2</div>
+            <div class="EFI 3">3</div>
+            <div class="EFI 4">4</div>
+            <div class="EFI 5">5</div>
+            <div class="EFI 6">6</div>
+            <div class="EFI 7">7</div>
+            <div class="EFI 8">8</div>
+            <div class="EFI 9">9</div>
+        </div>
+        <ul>
+            <li>Tiempo: como unos 10-5 minutos</li>
+            <li>Mi opinion: Bastante facil, puede ser complicado hacerlo la primera ves pero luego es muuuy rapido y sensillo</li>
+        </ul>
+
+        <h1>Manera No Eficiente</h1>
+        <div class="ContenedorEjemploNOEFI">
+            <div class="EFIn1">1</div>
+            <div class="EFIn2">2</div>
+            <div class="EFIn3">3</div>
+            <div class="EFIn4">4</div>
+            <div class="EFIn5">5</div>
+            <div class="EFIn6">6</div>
+            <div class="EFIn7">7</div>
+            <div class="EFIn8">8</div>
+            <div class="EFIn9">9</div>
+        </div>
+        <ul>
+            <li>Tiempo: probablemente toda mi vida</li>
+            <li>Mi opinion: lo pense un poco y tendria que agarrar id por id y ponerle color posicion y no quiero gastar mi tiempo en eso</li>
+        </ul>
+        <p>Conclucion: USA FLEXBOX O GRID </p>
+    </div>
+</body>
+</html>
